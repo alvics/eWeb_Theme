@@ -32,7 +32,7 @@ Add your custom JS in src/app.js
 
 
 ### How to Use Font Awesome 5
-Use Font Awesome 5 in the e_Web starter theme, loading SVGs via the advanced JavaScript API to take advantage of tree shaking.
+Start using Font Awesome 5, loading SVGs via the advanced JavaScript API to take advantage of tree shaking.
 
 
 
