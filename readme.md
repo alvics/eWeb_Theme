@@ -4,7 +4,7 @@ Blank starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced Java
 ### *Note working theme but not complete!
 
 
-#### Theme Installation
+### Theme Installation
 STEP 1. Clone or download zip.
 
 STEP 2. cd to theme folder 
@@ -31,7 +31,7 @@ Add your styles in src/app.scss
 Add your custom JS in src/app.js
 
 
-#### How to Use Font Awesome 5
+### How to Use Font Awesome 5
 Use Font Awesome 5 in the e_Web starter theme, loading SVGs via the advanced JavaScript API to take advantage of tree shaking.
 
 
@@ -75,7 +75,7 @@ In the appropriate template file
 <i class="fas fa-heart"></i>
 
 ```
-####
+###
 Build
 ```js
 npm run prod
