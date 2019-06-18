@@ -22,7 +22,6 @@ NEXT: To compile your styles scss with webpack run
 ```
 
 
-This will compile and fully minify your project.
 
 ##### Some basics
 Add your styles in src/app.scss
