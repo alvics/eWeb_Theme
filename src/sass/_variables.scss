@@ -1,0 +1,82 @@
+/*
+My Variables
+*/
+
+$my-primary:       #4285F4;
+$my-secondary:     #aa66cc;
+$my-success:       #00C851;
+$my-info:          #33b5e5;
+$my-warning:       #ffbb33;
+$my-danger:        #ff4444;
+$my-default:       #2BBBAD;
+$my-light:         #2E2E2E;
+$my-dark:          #212121;
+$white:            #ffffff;
+
+// Set Button Styles
+.btn {
+  color: $white;
+  border-radius:0;
+  border: none;
+  font-size: .81rem;
+  padding: .84rem 2.14rem;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(0,0,0,.25);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow
+  .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+
+  &:hover {
+    color: $white;
+    opacity: 0.7;
+    transition: all .7s ;
+
+  }
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #dae0e5;
+  -webkit-box-shadow: none !important;
+  opacity: 0.7;
+}
+
+.btn-my-primary {
+  background:  $my-primary;
+}
+
+.btn-my-secondary {
+  background: $my-secondary;
+}
+
+.btn-my-success {
+  background: $my-success;
+}
+
+.btn-my-info {
+  background: $my-info;
+}
+
+.btn-my-warning {
+  background: $my-warning;
+}
+
+.btn-my-danger {
+  background: $my-danger;
+}
+
+.btn-my-default {
+  background: $my-default;
+}
+
+.btn-my-light {
+  background: $my-light;
+}
+
+.btn-my-dark {
+  background: $my-dark;
+}
+
+
+
+

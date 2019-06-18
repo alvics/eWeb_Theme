@@ -1,0 +1,84 @@
+// Adding Boostrap 4 from node_modules
+@import '~bootstrap/scss/bootstrap';
+/* ======================================================================
+-------------- import new stylesheets here ------------------------------
+ ------------- add new stylesheets src/sass/_component_name.scss --------
+ ======================================================================*/
+// Add scss variables
+@import 'sass/variables';
+
+// Add external stylesheets here
+@import 'sass/header';
+@import 'sass/footer';
+
+// Add style for btn waves
+// @import 'waves/waves.min.css';
+
+/* ==========================================================================
+ --- Add your main styles here src/app.scss ----- will compile to app.css ---
+ ===========================================================================*/
+
+body {
+  background: #f2f2f2;
+}
+#my-main {
+  background: #fff;
+  padding: 40px 40px 200px 40px;
+  margin-bottom: 30px;
+}
+
+code {
+  font-size: 42px;
+}
+
+.widget {
+  list-style-type: none;
+  border: solid 1px lightblue;
+  padding: 1.5rem;
+  margin:0;
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: $dark;
+  }
+}
+.content{
+  padding-bottom: 500px;
+}
+#logo {
+  font-family: 'Montserrat', "Open Sans";
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+
