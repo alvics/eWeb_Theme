@@ -1,5 +1,5 @@
 <?php
-// Template Name: Right Side Bar Page
+// Template Name: Left Side Bar Page
 ?>
 
 <?php get_header();?>
@@ -7,6 +7,12 @@
 <div class="container">
 
 	<div class="row mt-3">
+<!-- Left Side Bar -->
+		<div class="col-md-3 mt-3">	<?php
+			if(is_active_sidebar('left-sidebar')){
+				dynamic_sidebar('left-sidebar');
+			}
+			?></div>
 
 		<div class="col-md-9">
 			<div class="content">
@@ -18,13 +24,9 @@
 
 				<?php endwhile;  endif; ?>
 			</div>
-			</div>
-        <!-- Right Side Bar -->
-			<div class="col-md-3 mt-3">	<?php
-				if(is_active_sidebar('right-sidebar')){
-					dynamic_sidebar('right-sidebar');
-				}
-				?></div>
+		</div>
+
+
 
 
 	</div>
