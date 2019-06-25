@@ -80,5 +80,35 @@ code {
   top:-0.14em;
   left:10px;
 }
+ #red {
+   background-color: $my-danger;
+   color:#fff;
+   padding: 30px;
+   margin-right: 10px;
+   width:100%;
+ }
+#blue {
+  background-color: $my-info;
+  color:#fff;
+  padding: 30px;
+  margin-right: 10px;
+  width:100%;
+}
+
+#purple {
+  background-color: $my-secondary;
+  color:#fff;
+  padding: 30px;
+  width:100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 100%;
+}
 
 

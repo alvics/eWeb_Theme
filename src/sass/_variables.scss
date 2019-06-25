@@ -9,7 +9,7 @@ $my-info:          #33b5e5;
 $my-warning:       #ffbb33;
 $my-danger:        #ff4444;
 $my-default:       #2BBBAD;
-$my-light:         #2E2E2E;
+$my-light:         #f2f2f2;
 $my-dark:          #212121;
 $white:            #ffffff;
 
@@ -71,6 +71,10 @@ $white:            #ffffff;
 
 .btn-my-light {
   background: $my-light;
+  color: $my-dark;
+  &:hover{
+    color: $my-dark;
+  }
 }
 
 .btn-my-dark {

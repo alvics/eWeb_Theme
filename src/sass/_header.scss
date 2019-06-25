@@ -3,10 +3,14 @@
  */
 
 header .navbar {
-  background: #673ab7 !important;
+  background: $my-primary !important;
   box-shadow: 0 0 20px rgba(0,0,0,0.25);
 }
 
 .navbar-nav .nav-link, .navbar-brand {
   color: #fff !important;
+}
+
+.form-inline .form-control {
+  border-radius: 0;
 }

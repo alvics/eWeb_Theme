@@ -10710,7 +10710,12 @@ My Variables
 }
 
 .btn-my-light {
-  background: #2E2E2E;
+  background: #f2f2f2;
+  color: #212121;
+}
+
+.btn-my-light:hover {
+  color: #212121;
 }
 
 .btn-my-dark {
@@ -10722,7 +10727,7 @@ My Variables
  */
 
 header .navbar {
-  background: #673ab7 !important;
+  background: #4285F4 !important;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -10731,12 +10736,14 @@ header .navbar {
   color: #fff !important;
 }
 
+.form-inline .form-control {
+  border-radius: 0;
+}
+
 #main-footer {
   background: #311b92;
-  height: 350px;
-  width: 100%;
   color: #ffffff;
-  padding: 90px 0 0 0;
+  padding: 90px 0 90px 0;
 }
 
 #bottom-footer {
@@ -10823,5 +10830,37 @@ code {
   position: relative;
   top: -0.14em;
   left: 10px;
+}
+
+#red {
+  background-color: #ff4444;
+  color: #fff;
+  padding: 30px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+#blue {
+  background-color: #33b5e5;
+  color: #fff;
+  padding: 30px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+#purple {
+  background-color: #aa66cc;
+  color: #fff;
+  padding: 30px;
+  width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
