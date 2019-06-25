@@ -1,9 +1,10 @@
 ## e_Web WordPress Starter Theme
 ##### Vanilla WordPress with bootstrap 4, Font Awesome 5, webpack and scss.
-Blank starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking, webpack files from Laravel to minify, compile files and build ready for production.
+Blank starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking, webpack files from Laravel to compile your dependencies.
+### *Note working theme but not complete!
 
 
-#### Theme Installation
+### Theme Installation
 STEP 1. Clone or download zip.
 
 STEP 2. cd to theme folder 
@@ -14,14 +15,13 @@ STEP 3. Run
        npm install
       ```
 
-NEXT: To compile your styles scss with webpack run
+NEXT: To compile your live styles scss
 
 ```
  npm run watch
 ```
 
 
-This will compile and fully minify your project.
 
 ##### Some basics
 Add your styles in src/app.scss
@@ -30,8 +30,8 @@ Add your styles in src/app.scss
 Add your custom JS in src/app.js
 
 
-#### How to Use Font Awesome 5
-Use Font Awesome 5 in the e_Web starter theme, loading SVGs via the advanced JavaScript API to take advantage of tree shaking.
+### How to Use Font Awesome 5
+Start using Font Awesome 5, loading SVGs via the advanced JavaScript API to take advantage of tree shaking.
 
 
 
@@ -74,7 +74,7 @@ In the appropriate template file
 <i class="fas fa-heart"></i>
 
 ```
-####
+###
 Build
 ```js
 npm run prod
