@@ -40,15 +40,30 @@ get_header(); ?>
                         <!-- End the loop. -->
 					 <?php endwhile; ?>
 
+                    <!-- Paginate Links -->
+                    <div class="paginate-links text-center">
+					<?php
+					global $wp_query;
+
+					$big = 999999999; // need an unlikely integer
+
+					echo paginate_links( array(
+						'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+						'format' => '?paged=%#%',
+						'current' => max( 1, get_query_var('paged') ),
+						'total' => $wp_query->max_num_pages
+					) );
+					?>
+                    </div>
                     <!-- Previous/next post navigation. -->
-					<?php the_post_navigation( array(
-						'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'e_web' ) . '</span> ' .
-						               '<span class="screen-reader-text">' . __( 'Next post:', 'e_web' ) . '</span> ' .
-						               '<span class="post-title">%title</span>',
-						'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'e_web' ) . '</span> ' .
-						               '<span class="screen-reader-text">' . __( 'Previous post:', 'e_web' ) . '</span> ' .
-						               '<span class="post-title">%title</span>',
-					) ); ?>
+<!--					--><?php //the_post_navigation( array(
+//						'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'e_web' ) . '</span> ' .
+//						               '<span class="screen-reader-text">' . __( 'Next post:', 'e_web' ) . '</span> ' .
+//						               '<span class="post-title">%title</span>',
+//						'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'e_web' ) . '</span> ' .
+//						               '<span class="screen-reader-text">' . __( 'Previous post:', 'e_web' ) . '</span> ' .
+//						               '<span class="post-title">%title</span>',
+//					) ); ?>
 
 				</div> <!-- .col-9 -->
 

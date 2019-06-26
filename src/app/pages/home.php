@@ -1,8 +1,8 @@
 <div class="content">
     <section class="jumbotron text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">Album example</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <h1 class="jumbotron-heading">Sample Theme</h1>
+            <p class="lead text-muted">Welcome to the <code style="font-size:19px">e_Web</code> starter them, a vanilla WordPress theme frame work with Bootstrap 4 and Font-Awesome 5 SVG integrated. Start your theme!</p>
             <p>
                 <a href="#" class="btn btn-primary my-2">Main call to action</a>
                 <a href="#" class="btn btn-secondary my-2">Secondary action</a>
@@ -14,7 +14,7 @@
 		<div class='container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
 
 <div class="container">
-		<h1 class="text-center"><code>e_Web</code> <span id="logo">Start your Theme!</span></h1>
+		<h1 class="text-center"><code>e_Web</code> <span id="logo">Starter Theme!</span></h1>
 		<section>
 			<div id="red" class="my-grid mt-3"><h4>col 1</h4>
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div>

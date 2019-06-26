@@ -52,6 +52,7 @@ get_header(); ?>
                                     // End the loop.
                                 endwhile;
                                 ?>
+                       <?php the_tags(); ?>
 
                    </div> <!-- .col-9 -->
 

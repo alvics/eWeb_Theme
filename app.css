@@ -10723,7 +10723,7 @@ My Variables
 }
 
 /*
- Header Styles Here
+ * Header styles go here
  */
 
 header .navbar {
@@ -10739,6 +10739,10 @@ header .navbar {
 .form-inline .form-control {
   border-radius: 0;
 }
+
+/*
+ * Footer styles go here
+ */
 
 #main-footer {
   background: #311b92;
@@ -10783,7 +10787,7 @@ body {
 
 #my-main {
   background: #fff;
-  padding: 40px 40px 200px 40px;
+  padding: 30px 30px 60px 30px;
   margin-bottom: 30px;
 }
 
@@ -10830,11 +10834,7 @@ code {
   background-color: #fff;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
   margin-top: 56px;
-  margin-bottom: 120px;
-}
-
-.content {
-  padding-bottom: 500px;
+  margin-bottom: 50px;
 }
 
 #logo {
