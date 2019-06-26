@@ -1,6 +1,6 @@
-## e_Web WordPress Starter Theme
-#### Vanilla WordPress with bootstrap 4, Font Awesome 5, webpack and scss.
-Welcome to e_Web starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking, webpack files from Laravel to compile your dependencies.
+## e_Web WordPress Theme Framework
+#### WordPress with bootstrap 4 and Font Awesome 5.
+Welcome to e_Web starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking, node and webpack configuration from Laravel to compile your dependencies.
 
 
 
@@ -14,7 +14,7 @@ STEP 3. Run
       ```
        npm install
       ```
-
+### Run
 NEXT: To compile your live styles scss
 
 ```
