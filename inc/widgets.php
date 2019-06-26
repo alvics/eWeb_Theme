@@ -1,6 +1,12 @@
 <?php
+/**
+ * e_Web declare widgets
+ *
+ * @package e_web
+ *
+ */
 
-// Side bar Page widget
+// Pages widget Side bar
 register_sidebar(
 	array(
 		'name' => 'Right Sidebar',
@@ -11,11 +17,23 @@ register_sidebar(
 	)
 );
 
+//  Pages widget Side bar
 register_sidebar(
 	array(
 		'name' => 'Left Sidebar',
 		'id'   => 'left-sidebar',
 		'class'=> 'side-bar',
+		'before_title' => '<h4 class="side-bar-title">',
+		'after_title' => '</h4>'
+	)
+);
+
+//  Blog Page widget Side bar
+register_sidebar(
+	array(
+		'name' => 'Blog Sidebar',
+		'id'   => 'blog-sidebar',
+		'class'=> 'blog-side-bar',
 		'before_title' => '<h4 class="side-bar-title">',
 		'after_title' => '</h4>'
 	)

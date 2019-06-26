@@ -1,5 +1,13 @@
 <?php
-// Template Name: Full Blank Page
+
+/**
+ * Template Name: Full Blank Page
+ *
+ * The template for displaying a blank page
+ *
+ * @package  e_web
+ *
+ */
 ?>
 
 <?php get_header();?>

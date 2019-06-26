@@ -1,5 +1,12 @@
 <?php
-// Template Name: Right Side Bar Page
+/**
+ * Template Name: Right Side Bar Page
+ *
+ * The template for displaying a right side bar page
+ *
+ * @package  e_web
+ *
+ */
 ?>
 
 <?php get_header();?>

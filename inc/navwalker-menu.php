@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * e_Web nav-walker menu
+ *
+ * @package e_web
+ *
+ */
+
 wp_nav_menu( array(
 	'theme_location'  => 'primary',
 	'depth'           => 2,
@@ -9,3 +17,5 @@ wp_nav_menu( array(
 	'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
 	'walker'          => new WP_Bootstrap_Navwalker(),
 ));
+
+

@@ -14,7 +14,7 @@
 
 <header class="masthead mb-auto">
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" role="navigation">
+        <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
 
             <div class="container">
 
@@ -24,18 +24,13 @@
                         aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#"><?php bloginfo(); ?></a>
+                <a class="navbar-brand" href="<?php echo home_url(); ?>"><?php bloginfo(); ?></a>
 
                 <!-- Navwalker  menu -->
-<?php get_template_part('inc/navwalker', 'menu') ?>
 
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <span class="my-menu"><?php get_template_part('inc/navwalker', 'menu') ?></span>
             </div>
         </nav>
-
 </header>
 
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * e_Web enqueue scripts
+ *
+ * @package e_web
+ *
+ */
+
+
 // Adding the Stylesheet
 function load_stylesheets() {
 	wp_register_style('stylesheet', get_template_directory_uri() . '/style.css', array(), 1, 'all'  );

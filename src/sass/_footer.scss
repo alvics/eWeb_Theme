@@ -5,6 +5,7 @@
 }
 
  #bottom-footer {
+   font-size: 12px;
    background: #673ab7;
    color:$white;
    padding: 10px 0;
@@ -17,3 +18,14 @@
  }
 
  .fa-heart:hover { transform: scale(1.1); }
+
+ #main-footer .widget_text {
+   border: solid 1px lightblue;
+ }
+
+ @media(max-width:835px) {
+   .widget {
+     padding: .5rem !important;
+   }
+ }
+

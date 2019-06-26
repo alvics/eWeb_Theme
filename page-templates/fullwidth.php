@@ -1,6 +1,14 @@
 <?php
-// Template Name: Full Width Page
+/**
+ * Template Name: Full Width Page
+ *
+ * The template for displaying a full width page
+ *
+ * @package  e_web
+ *
+ */
 ?>
+
 
 <?php get_header();?>
 

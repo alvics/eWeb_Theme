@@ -1,5 +1,11 @@
-
 <?php
+/**
+ * The sidebar main widget area.
+ *
+ * @package e_web
+ *
+ */
+
 dynamic_sidebar( 'left-sidebar' );
 dynamic_sidebar( 'right-sidebar' );
 

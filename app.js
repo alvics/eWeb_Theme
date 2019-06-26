@@ -30414,7 +30414,7 @@ _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__["dom"].watch(); /
 
 console.log('e_Web starter theme is working!'); // function([string1, string2],target id,[color1,color2])
 
-consoleText(['Hello World.', 'Welcome to my starter theme', 'Made with Love on the Gold Coast, enjoy!'], 'text', ['tomato', 'rebeccapurple', 'lightblue']);
+consoleText(['Hello World!', 'Welcome to _eWeb starter theme', 'Made with Love here on the Gold Coast, enjoy!'], 'text', ['tomato', 'rebeccapurple', 'lightblue']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];

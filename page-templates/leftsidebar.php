@@ -1,6 +1,14 @@
 <?php
-// Template Name: Left Side Bar Page
+/**
+ * Template Name: Left Side Bar Page
+ *
+ * The template for displaying a left side bar page
+ *
+ * @package  e_web
+ *
+ */
 ?>
+
 
 <?php get_header();?>
 
