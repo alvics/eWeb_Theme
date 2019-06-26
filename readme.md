@@ -1,7 +1,7 @@
 ## e_Web WordPress Starter Theme
-##### Vanilla WordPress with bootstrap 4, Font Awesome 5, webpack and scss.
-Blank starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking, webpack files from Laravel to compile your dependencies.
-### *Note working theme but not complete!
+#### Vanilla WordPress with bootstrap 4, Font Awesome 5, webpack and scss.
+Welcome to e_Web starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking, webpack files from Laravel to compile your dependencies.
+
 
 
 ### Theme Installation
@@ -80,3 +80,9 @@ Build
 npm run prod
 ```
 
+### License & Credits
+e_Web starter theme framework is open-source software licensed under the MIT license.
+* Font Awesome: https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt (Font: SIL OFL 1.1, CSS: MIT License)
+* Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT documentation under CC BY 3.0.)
+* Laravel: https://github.com/laravel/framework/blob/5.8/LICENSE.md | (Code licensed under MIT)
+* WP Bootstrap Navwalker: https://github.com/wp-bootstrap/wp-bootstrap-navwalker | GNU GPL
