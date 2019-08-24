@@ -37,7 +37,7 @@ Start using Font Awesome 5, loading SVGs via the advanced JavaScript API to take
 
 To add Icons in e_Web theme go to ```src/app.js``` import icons as needed.
 
-```
+```javascript
 
 // import the Facebook and Twitter icons
 import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -48,7 +48,7 @@ library.add(faFacebook, faTwitter);
 
 ```
 need more Icons:
-```
+```javascript
 // import your SVGs here from free solid (faHeart icons)
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
