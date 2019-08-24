@@ -1,6 +1,6 @@
 ## e_Web WordPress Theme Framework
 #### WordPress with bootstrap 4 and Font Awesome 5.
-Welcome to e_Web starter theme with bootstrap 4, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking, node and webpack configuration from Laravel to compile your dependencies.
+Welcome to e_Web starter theme with bootstrap 4, Laravel Mix, fontawesome 5 (SVGs) via the advanced JavaScript API to take advantage of tree shaking.
 
 
 
